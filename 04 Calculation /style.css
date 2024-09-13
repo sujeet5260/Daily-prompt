@@ -19,6 +19,7 @@ body{
     width: 100vw;
     display: flex;
     overflow-x: hidden;
+    background-color: #DA6C38;
 
 }
 .img{
@@ -26,6 +27,7 @@ body{
 }
 .img img{
     width: 100%;
+    
 }
 .container{
     width: 50%;
@@ -34,7 +36,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #EACAFD;
+    /* background-color: #EACAFD; */
 }
 
 
