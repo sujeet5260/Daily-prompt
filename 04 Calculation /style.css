@@ -8,20 +8,36 @@
 html,body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 
 }
 body{
     background-color: black;
 }
 
+.page1{
+    width: 100vw;
+    display: flex;
+    overflow-x: hidden;
+
+}
+.img{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+}
 .container{
+    width: 50%;
     
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: #EACAFD;
 }
+
+
 
 .calculator{
     width: 400px;
