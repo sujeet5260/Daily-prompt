@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -9,3 +11,57 @@ html,body{
     height: 100%;
 }
 
+.page1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.page1 .left {
+    width: 20%;
+    height: 100%;
+    background-color: aquamarine;
+    /* text-align: center; */
+
+}
+.left p ,.left select{
+    font-size: 1.5rem;
+    margin: 5% auto;
+    margin-left: 10%;
+    background-color: transparent;
+    border: none;
+    
+    
+}
+.left h1:first-child{
+    font-family: pacifico;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    font-size: 3rem;
+
+
+
+}
+.page1 .right{
+    width: 80%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+.page1 .right .nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: coral;
+
+}
+.nav h1 , .nav div{
+    margin:0 5% ;
+}
+.nav div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
