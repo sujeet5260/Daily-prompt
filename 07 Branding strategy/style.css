@@ -30,8 +30,10 @@ nav, nav div, nav  ul{
 nav{
     width: 100%;
     gap: 40%;
-    padding: 2%;
-    margin: 1%;
+    padding: 1%;
+    background-color: #F6E6CF;
+    
+    
 }
 .nav-l > h1{
     font-family: Protest Guerrilla;
@@ -57,12 +59,13 @@ nav > .nav-l{
 
 .page1{
     width: 100vw;
+    background-color: #F6E6CF;
    
 
 
 }
 
-.wrapper{
+.p1-wrapper{
     width: 100%;
     display: flex;
 }
@@ -99,3 +102,49 @@ nav > .nav-l{
     object-fit: contain;
     overflow: hidden;
 }
+
+
+/* ========================== PAGE 2 ================================ */
+
+
+.page2{
+    width: 100vw;
+
+}
+.p2-wrapper{
+    width: 100%;
+}
+
+.p2-wrapper > .heading{
+    width: 100%;
+    height: 7vh;
+    
+    
+}
+.p2-wrapper .heading h1{
+    margin-left: 12%;
+    padding-top: 1%;
+    
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.card1{
+    background-color: red;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card1 img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
