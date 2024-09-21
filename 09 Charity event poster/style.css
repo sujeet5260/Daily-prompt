@@ -50,34 +50,3 @@ nav .nav-btn{
     width: 100vw;
 }
 
-.page1 .page1-content{
-    width: 100%;
-    display: flex;
-
-}
-.page1-content .content-l{
-    width: 50%;
-    height: 100vh;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.content-l div{
-    width: 90%;
-}
-.content-l div p{
-    font-size: 2rem;
-}
-
-.content-l div h1{
-    font-size: 6rem;
-    font-weight: 500;
-
-}
-.page1-content .content-r{
-      width: 50%;
-      background-color: blue;
-    
-}
