@@ -85,3 +85,24 @@ html,body{
 .card >h1{
     width: 40%;
 }
+.footer > .social{
+    position:absolute;
+    width: 60%;
+    height: 15vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: none;
+    border-top: 1px solid gray;
+    bottom: 10rem;
+}
+.footer > .social p:first-child{
+    margin-left: 1.5rem;
+}
+.footer > .social > div > i{
+    font-size: 1.5rem;
+    margin-right: rem;
+
+}
